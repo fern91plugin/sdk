@@ -1,4 +1,4 @@
-package fern91
+package sdk
 
 import "github.com/hashicorp/go-plugin"
 

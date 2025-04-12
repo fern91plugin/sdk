@@ -1,4 +1,4 @@
-package fern91
+package sdk
 
 import (
 	"context"
