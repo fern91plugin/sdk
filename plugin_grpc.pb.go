@@ -4,7 +4,7 @@
 // - protoc             v3.21.12
 // source: plugin.proto
 
-package fern91
+package sdk
 
 import (
 	context "context"
