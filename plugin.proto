@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package plugin;
+
+service Plugin {
+  rpc Execute(ExecuteRequest) returns (ExecuteResponse);
+}
+
+message ExecuteRequest {
+  string plugin_id = 1;
+  map<string, string> config = 2;
+}
+
+message ExecuteResponse {
+  bool success = 1;
+  string message = 2;
+  string output = 3;
+}
